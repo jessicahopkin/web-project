@@ -1,0 +1,164 @@
+li.bannerli {
+  display: inline;
+  font-size: 40px;
+  color: white;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  position: sticky;
+  margin: 20px;
+  padding: 20px;
+  position: relative;
+  left: 230px;
+}
+
+.banner {
+  background-color: #002663;
+  padding: 0px 40px 60px 40px;
+  font-family: 'Amatic SC', cursive;
+}
+
+a:visited {
+  color: white;
+}
+
+#logo-banner {
+  left: 50px;
+  border: none;
+  padding: none;
+}
+
+body {
+  font-family: 'Amatic SC', cursive;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 128, 0.9);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: orange;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+#footer {
+  background-color: #002663;
+  size: cover;
+  margin-top: 20px;
+}
+
+#social-media {
+  display: inline-block;
+  /*background-color: #002663;*/
+  background-size: cover;
+  border: 0px;
+}
+
+ul.socialsul {
+  text-align: center;
+}
+
+li.socials {
+  display: inline-block;
+  padding: 10px;
+  align-items: center;
+  float: right;
+}
+
+#trash {
+  font-family: 'Amatic SC', cursive;
+  font-size: 40px;
+  color: #f28b00;
+  display: inline-block;
+  padding: 30px;
+  float: left;
+}
